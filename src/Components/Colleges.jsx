@@ -128,7 +128,7 @@ const Colleges = () => {
   const displayCourseDetails = (courseIndex) => {
     if (courseIndex === null) {
       return (
-        <div className="text-center text-xl font-bold text-gray-800">
+        <div className="text-center h-[100%] flex justify-center items-center animate-pulse text-xl font-bold text-gray-800">
           Please select a course to view details...!
         </div>
       );
@@ -138,7 +138,7 @@ const Colleges = () => {
 
     if (courseIndex >= 3) {
       return (
-        <div className="text-center text-xl font-bold text-gray-800">
+        <div className="text-center h-[100%] flex justify-center items-center text-2xl font-bold text-gray-800">
           Colleges not added for this course yet, please keep waiting...
         </div>
       );

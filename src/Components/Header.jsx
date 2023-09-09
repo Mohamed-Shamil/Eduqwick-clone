@@ -8,7 +8,10 @@ const Header = () => {
             <img className="h-12 hover:cursor-pointer" src="Images\facebook.png" alt="" />
             <img className="h-12 hover:cursor-pointer" src="Images\instagram.png" alt="" />
             <img className="h-12 hover:cursor-pointer" src="Images\whatsapp.png" alt="" />
-            <img className="h-12 hover:cursor-pointer" src="Images\youtube.png" alt="" />
+            <a href="https://www.youtube.com/watch?v=QGq5sH_ep5Y&ab_channel=Eduqwick%28SharpCareerAhead%29" target="_blank" rel="noopener noreferrer">
+  <img className="h-12 hover:cursor-pointer" src="Images\youtube.png" alt="" />
+</a>
+
             <img className="h-12 hover:cursor-pointer" src="Images\twitter.png" alt="" />
           </div>
   

@@ -128,7 +128,7 @@ const Colleges = () => {
   const displayCourseDetails = (courseIndex) => {
     if (courseIndex === null) {
       return (
-        <div className="text-center h-[100%] flex justify-center items-center animate-pulse text-xl font-bold text-gray-800">
+        <div className="text-center h-[100%] flex justify-center items-center animate-pulse text-3xl font-bold text-gray-800">
           Please select a course to view details...!
         </div>
       );
